@@ -1,0 +1,17 @@
+package Pattern_Printing;
+
+import java.util.Scanner;
+
+public class StarSquare {
+    static void main() {
+        Scanner sc = new Scanner(System.in);
+        int row = sc.nextInt();
+
+        for(int i=1; i<=row; i++){
+            for(int j=1; j<=row; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
